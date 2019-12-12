@@ -1,0 +1,258 @@
+2019/12/09 08:48:51 [error] 9#9: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/application/src/web/../vendor/autoload.php): failed to open stream: No such file or directory in /application/src/web/index.php on line 7PHP message: PHP Stack trace:PHP message: PHP   1. {main}() /application/src/web/index.php:0PHP message: PHP Fatal error:  require(): Failed opening required '/application/src/web/../vendor/autoload.php' (include_path='.:/usr/share/php') in /application/src/web/index.php on line 7PHP message: PHP Stack trace:PHP message: PHP   1. {main}() /application/src/web/index.php:0" while reading response header from upstream, client: 192.168.192.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:5000"
+2019/12/09 08:48:54 [error] 9#9: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/application/src/web/../vendor/autoload.php): failed to open stream: No such file or directory in /application/src/web/index.php on line 7PHP message: PHP Stack trace:PHP message: PHP   1. {main}() /application/src/web/index.php:0PHP message: PHP Fatal error:  require(): Failed opening required '/application/src/web/../vendor/autoload.php' (include_path='.:/usr/share/php') in /application/src/web/index.php on line 7PHP message: PHP Stack trace:PHP message: PHP   1. {main}() /application/src/web/index.php:0" while reading response header from upstream, client: 192.168.192.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:5000"
+2019/12/09 09:02:11 [error] 9#9: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mkdir(): Permission denied in /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 640PHP message: PHP Stack trace:PHP message: PHP   1. yii\web\ErrorHandler->handleException() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:0PHP message: PHP   2. yii\log\Logger->flush() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:113PHP message: PHP   3. yii\log\Dispatcher->dispatch() /application/src/vendor/yiisoft/yii2/log/Logger.php:177PHP message: PHP   4. yii\log\FileTarget->collect() /application/src/vendor/yiisoft/yii2/log/Dispatcher.php:189PHP message: PHP   5. yii\log\FileTarget->export() /application/src/vendor/yiisoft/yii2/log/Target.php:158PHP message: PHP   6. yii\helpers\BaseFileHelper::createDirectory() /application/src/vendor/yiisoft/yii2/log/FileTarget.php:105PHP message: PHP   7. mkdir() /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php:640" while reading upstream, client: 192.168.192.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:5000"
+2019/12/09 09:02:11 [error] 9#9: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mkdir(): Permission denied in /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 640PHP message: PHP Stack trace:PHP message: PHP   1. yii\web\ErrorHandler->handleException() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:0PHP message: PHP   2. yii\log\Logger->flush() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:113PHP message: PHP   3. yii\log\Dispatcher->dispatch() /application/src/vendor/yiisoft/yii2/log/Logger.php:177PHP message: PHP   4. yii\debug\LogTarget->collect() /application/src/vendor/yiisoft/yii2/log/Dispatcher.php:189PHP message: PHP   5. yii\debug\LogTarget->export() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:136PHP message: PHP   6. yii\helpers\BaseFileHelper::createDirectory() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:53PHP message: PHP   7. mkdir() /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php:640" while reading upstream, client: 192.168.192.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:5000"
+2019/12/09 09:02:11 [error] 9#9: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  file_put_contents(/application/src/runtime/de" while reading upstream, client: 192.168.192.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:5000"
+2019/12/09 09:02:11 [error] 9#9: *5 FastCGI sent in stderr: "bug/5dee0d930b67d.data): failed to open stream: No such file or directory in /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 74PHP message: PHP Stack trace:PHP message: PHP   1. yii\web\ErrorHandler->handleException() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:0PHP message: PHP   2. yii\log\Logger->flush() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:113PHP message: PHP   3. yii\log\Dispatcher->dispatch() /application/src/vendor/yiisoft/yii2/log/Logger.php:177PHP message: PHP   4. yii\debug\LogTarget->collect() /application/src/vendor/yiisoft/yii2/log/Dispatcher.php:189PHP message: PHP   5. yii\debug\LogTarget->export() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:136PHP message: PHP   6. file_put_contents() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:74" while reading upstream, client: 192.168.192.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:5000"
+2019/12/09 09:06:59 [error] 8#8: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mkdir(): Permission denied in /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 640PHP message: PHP Stack trace:PHP message: PHP   1. yii\web\ErrorHandler->handleException() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:0PHP message: PHP   2. yii\log\Logger->flush() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:113PHP message: PHP   3. yii\log\Dispatcher->dispatch() /application/src/vendor/yiisoft/yii2/log/Logger.php:177PHP message: PHP   4. yii\log\FileTarget->collect() /application/src/vendor/yiisoft/yii2/log/Dispatcher.php:189PHP message: PHP   5. yii\log\FileTarget->export() /application/src/vendor/yiisoft/yii2/log/Target.php:158PHP message: PHP   6. yii\helpers\BaseFileHelper::createDirectory() /application/src/vendor/yiisoft/yii2/log/FileTarget.php:105PHP message: PHP   7. mkdir() /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php:640" while reading upstream, client: 192.168.208.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.208.3:9000", host: "localhost:5000"
+2019/12/09 09:06:59 [error] 8#8: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mkdir(): Permission denied in /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 640PHP message: PHP Stack trace:PHP message: PHP   1. yii\web\ErrorHandler->handleException() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:0PHP message: PHP   2. yii\log\Logger->flush() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:113PHP message: PHP   3. yii\log\Dispatcher->dispatch() /application/src/vendor/yiisoft/yii2/log/Logger.php:177PHP message: PHP   4. yii\debug\LogTarget->collect() /application/src/vendor/yiisoft/yii2/log/Dispatcher.php:189PHP message: PHP   5. yii\debug\LogTarget->export() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:136PHP message: PHP   6. yii\helpers\BaseFileHelper::createDirectory() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:53PHP message: PHP   7. mkdir() /application/src/vendor/yiisoft/yii2/helpers/BaseFileHelper.php:640" while reading upstream, client: 192.168.208.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.208.3:9000", host: "localhost:5000"
+2019/12/09 09:06:59 [error] 8#8: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  file_put_contents(/application/src/runtime/de" while reading upstream, client: 192.168.208.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.208.3:9000", host: "localhost:5000"
+2019/12/09 09:06:59 [error] 8#8: *1 FastCGI sent in stderr: "bug/5dee0eb35f3e0.data): failed to open stream: No such file or directory in /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 74PHP message: PHP Stack trace:PHP message: PHP   1. yii\web\ErrorHandler->handleException() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:0PHP message: PHP   2. yii\log\Logger->flush() /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php:113PHP message: PHP   3. yii\log\Dispatcher->dispatch() /application/src/vendor/yiisoft/yii2/log/Logger.php:177PHP message: PHP   4. yii\debug\LogTarget->collect() /application/src/vendor/yiisoft/yii2/log/Dispatcher.php:189PHP message: PHP   5. yii\debug\LogTarget->export() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:136PHP message: PHP   6. file_put_contents() /application/src/vendor/yiisoft/yii2-debug/src/LogTarget.php:74" while reading upstream, client: 192.168.208.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.208.3:9000", host: "localhost:5000"
+2019/12/10 16:25:39 [error] 7#7: *879 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /application/src/controllers/SiteController.php on line 107PHP message: PHP Stack trace:PHP message: PHP   1. {main}() /application/src/web/index.php:0PHP message: PHP   2. yii\web\Application->run() /application/src/web/index.php:12PHP message: PHP   3. yii\web\Application->handleRequest() /application/src/vendor/yiisoft/yii2/base/Application.php:386PHP message: PHP   4. yii\web\Application->runAction() /application/src/vendor/yiisoft/yii2/web/Application.php:103PHP message: PHP   5. app\controllers\SiteController->runAction() /application/src/vendor/yiisoft/yii2/base/Module.php:528PHP message: PHP   6. yii\base\InlineAction->runWithParams() /application/src/vendor/yiisoft/yii2/base/Controller.php:157PHP message: PHP   7. call_user_func_array:{/application/src/vendor/yiisoft/yii2/base/InlineAction.php:57}() /application/src/vendor/yiisoft/yii2/base/InlineAction.php:57PHP message: PHP   8. app\controllers\SiteController->actionIndex() /application/src/vendor/yiisoft/yii2/base/InlineAction.php:57PHP message: PHP   9. app\controllers\SiteController->reduceStrings() /application/src/controllers/SiteController.php:74" while reading response header from upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000", referrer: "http://localhost:5000/registration"
+2019/12/10 16:28:07 [error] 7#7: *891 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /application/src/controllers/SiteController.php on line 84PHP message: PHP Stack trace:PHP message: PHP   1. {main}() /application/src/web/index.php:0PHP message: PHP   2. yii\web\Application->run() /application/src/web/index.php:12PHP message: PHP   3. yii\web\Application->handleRequest() /application/src/vendor/yiisoft/yii2/base/Application.php:386PHP message: PHP   4. yii\web\Application->runAction() /application/src/vendor/yiisoft/yii2/web/Application.php:103PHP message: PHP   5. app\controllers\SiteController->runAction() /application/src/vendor/yiisoft/yii2/base/Module.php:528PHP message: PHP   6. yii\base\InlineAction->runWithParams() /application/src/vendor/yiisoft/yii2/base/Controller.php:157PHP message: PHP   7. call_user_func_array:{/application/src/vendor/yiisoft/yii2/base/InlineAction.php:57}() /application/src/vendor/yiisoft/yii2/base/InlineAction.php:57PHP message: PHP   8. app\controllers\SiteController->actionIndex() /application/src/vendor/yiisoft/yii2/base/InlineAction.php:57PHP message: PHP   9. app\controllers\SiteController->reduceStrings() /application/src/controllers/SiteController.php:74PHP message: PHP  10. app\controllers\SiteController::app\controllers\{closure:/application/src/controllers/SiteController.php:84-94}() /application/src/controllers/SiteController.php:110PHP message: PHP Fatal error:  Uncaught yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 111. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(262): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleFata
+2019/12/10 16:28:07 [error] 7#7: *891 FastCGI sent in stderr: "ge: PHP   9. app\controllers\SiteController->reduceStrings() /application/src/controllers/SiteController.php:74PHP message: PHP  10. app\controllers\SiteController::app\controllers\{closure:/application/src/controllers/SiteController.php:84-94}() /application/src/controllers/SiteController.php:110" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000", referrer: "http://localhost:5000/registration"
+2019/12/10 16:46:06 [error] 7#7: *919 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:05:02 [error] 7#7: *952 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 97. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 97. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web\R" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:07:09 [error] 7#7: *952 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 121. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 121. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:16:02 [error] 7#7: *976 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:16:40 [error] 7#7: *976 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:18:07 [error] 7#7: *984 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 127. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 127. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:21:03 [error] 7#7: *987 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 95. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 95. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web\R" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:21:23 [error] 7#7: *987 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 95. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 95. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web\R" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:22:22 [error] 7#7: *987 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Heade" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:22:22 [error] 7#7: *987 FastCGI sent in stderr: "rs already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web\R" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:27:08 [error] 7#7: *994 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Array to string conversion in /application/src/views/site/index.php:13
+Stack trace:
+#0 /application/src/views/site/index.php(13): yii\web\ErrorHandler->handleError()
+#1 /application/src/vendor/yiisoft/yii2/base/View.php(348): yii\web\View->unknown()
+#2 /application/src/vendor/yiisoft/yii2/base/View.php(257): yii\web\View->renderPhpFile()
+#" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:32:43 [error] 7#7: *997 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:32:43 [error] 7#7: *997 FastCGI sent in stderr: ": Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web\R" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:33:00 [error] 7#7: *997 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:33:00 [error] 7#7: *997 FastCGI sent in stderr: "#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web\R" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:35:09 [error] 7#7: *1013 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\ErrorException: preg_split() expects parameter 2 to be string, array given in /application/src/controllers/SiteController.php:123
+Stack trace:
+#0 /application/src/controllers/SiteController.php(123): yii\web\ErrorHandler->handleError()
+#1 /application/src/controllers/SiteController.php(123): ::preg_split()
+#2 /application/src/controllers/SiteController.ph" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:37:06 [error] 7#7: *1013 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 122. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:38:06 [error] 7#7: *1013 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 120. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 120. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:38:09 [error] 7#7: *1013 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 120. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 120. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:38:24 [error] 7#7: *1013 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 120. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 120. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:41:01 [error] 7#7: *1032 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /application/src/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySent" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
+2019/12/10 17:41:01 [error] 7#7: *1032 FastCGI sent in stderr: "Exception: Headers already sent in /application/src/controllers/SiteController.php on line 94. in /application/src/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /application/src/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /application/src/vendor/yiisoft/yii2/base/Application.php(392): yii\web\R" while reading upstream, client: 192.168.80.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:5000"
